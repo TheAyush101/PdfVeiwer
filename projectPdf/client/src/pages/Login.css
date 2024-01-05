@@ -1,0 +1,72 @@
+/* Login.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: rgb(44, 2, 2);
+  margin-left: 50px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  background-color: #2c3b60;
+  border-radius: 10px;
+  color: #f7f9fb;
+  padding: 20px; /* Added padding for better spacing */
+}
+
+/* Center the input fields */
+.input-field {
+  margin: 10px 0; /* Adjusted margin for input fields */
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #8fc1e3;
+  border-radius: 5px;
+  background-color: #f7f9fb;
+}
+
+/* Center the submit button */
+.submit-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e71a47; /* Set your desired button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the Auth0 login button */
+.auth0-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #61dafb; /* Set your desired Auth0 button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the "Sign Up" link */
+p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #fcf9f9;
+}
+
+/* Style the "Sign Up" link within the paragraph */
+p a {
+  text-decoration: none;
+  color: #007bff; /* Set your desired link color */
+}
+
+/* Style the "Sign Up" link on hover */
+p a:hover {
+  text-decoration: underline;
+}
